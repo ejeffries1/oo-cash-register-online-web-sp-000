@@ -21,6 +21,7 @@ class CashRegister
   else
     @items << title
     end
+    
     @last_transaction = @total
   end
   
